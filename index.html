@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>End Escape Room</title>
+  </head>
+  <body>
+    <div class="column"></div>
+    <div class="column center-content">
+      <div
+        class="box light_grey clickable center-content opaque"
+        id="1"
+        onclick="next()"
+      >
+        <p class="text">Congragulations, You all escaped!</p>
+      </div>
+
+      <div
+        class="box light_grey none clickable center-content opaque"
+        id="2"
+        onclick="next1()"
+      >
+        <p class="text">Wait...</p>
+      </div>
+
+      <div
+        class="box light_grey none clickable center-content opaque"
+        id="3"
+        onclick="next2()"
+      >
+        <p class="text">Where's Clint?</p>
+      </div>
+    </div>
+    <div class="column"></div>
+
+    <div class="modal center-content" id="myModal">
+      <video id="end" style="display: none" controls>
+        <source src="videos/finaly.mp4" type="video/mp4" />
+      </video>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
