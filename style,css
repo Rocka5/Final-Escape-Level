@@ -1,0 +1,111 @@
+body {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  margin: 0;
+  background-image: url("images/background2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+}
+.center-content {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+.box {
+  height: 20%;
+  width: 60%;
+  margin-top: 50%;
+  border-radius: 9%;
+}
+.column {
+  height: 100%;
+  width: calc(100% / 3);
+}
+.none {
+  display: none;
+}
+
+.clickable:hover {
+  cursor: pointer;
+  cursor: ;
+}
+
+.modal {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(28, 28, 28, 0.8);
+  opacity: 1;
+}
+
+.modal-content {
+  width: 100%;
+  height: 100%;
+  opacity: 1;
+  margin: 0;
+}
+
+video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  pointer-events: none;
+}
+
+.fit {
+  height: 100%;
+  width: 100%;
+}
+.text {
+  font-family: "Courier New", monospace;
+  align-content: left;
+  margin: 8px 0em 0em 20px;
+  color: rgb(0, 0, 0);
+  font-size: 35px;
+}
+.opaque {
+  opacity: 75%;
+}
+
+.purple {
+  background-color: purple;
+}
+.red {
+  background-color: red;
+}
+.blue {
+  background-color: blue;
+}
+.orange {
+  background-color: orange;
+}
+.green {
+  background-color: green;
+}
+
+.pink {
+  background-color: pink;
+}
+
+.hpink {
+  background-color: hotpink;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.gblue {
+  background-color: aquamarine;
+}
+
+.light_grey {
+  background-color: lightgray;
+}
